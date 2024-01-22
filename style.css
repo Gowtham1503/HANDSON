@@ -1,0 +1,17 @@
+@media screen {
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+.item{
+    background-color: blue;
+    padding: 20px;
+    margin: 10px;
+}
+.grit_con{
+    display: -ms-inline-grid;
+}
